@@ -49,7 +49,7 @@ const MILLICENT_ONE_CHAIN: ChainSpec = {
   wsUrl: "wss://millicent-devnet-aardvark.rpc.caldera.xyz/ws",
   addrs: {
     dex: "0xa5bCEDc79347657f8d3e7f317aB9F4922342aeCD",
-    query: "0xa5bCEDc79347657f8d3e7f317aB9F4922342aeCD",
+    query: "0x2fF36F04023329045491FDAbDFb4b96aE5D32E77",
     impact: "0xEa1ED414F23AFa8A414047Ad6497B29CA60b17d4"
   },
   poolIndex: 36000,
