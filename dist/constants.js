@@ -226,7 +226,7 @@ exports.CHAIN_SPECS = {
     "0x82750": SCROLL_CHAIN,
     "0xa0c71fd": BLAST_SEPOLIA_CHAIN,
     "0x13e31": BLAST_CHAIN,
-    "0x5fc17a": MILLICENT_ONE_CHAIN,
+    "0xa791b": MILLICENT_ONE_CHAIN,
     "goerli": GOERLI_CHAIN,
     "sepolia": SEPOLIA_CHAIN,
     "arbtest": ARB_GOERLI_CHAIN,
