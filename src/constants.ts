@@ -45,25 +45,25 @@ const BLAST_LOGO =
 const DFLT_SDK_INFURA_KEY = '4741d1713bff4013bc3075ed6e7ce091'
 
 const MILLICENT_ONE_CHAIN: ChainSpec = {
-  nodeUrl: "https://millicent-devnet-aardvark.rpc.caldera.xyz/http",
-  wsUrl: "wss://millicent-devnet-aardvark.rpc.caldera.xyz/ws",
+  nodeUrl: "https://millicent-devnet-2.rpc.caldera.xyz/http",
+  wsUrl: "wss://millicent-devnet-2.rpc.caldera.xyz/ws",
   addrs: {
-    dex: "0xa5bCEDc79347657f8d3e7f317aB9F4922342aeCD",
-    query: "0x2fF36F04023329045491FDAbDFb4b96aE5D32E77",
-    impact: "0xEa1ED414F23AFa8A414047Ad6497B29CA60b17d4"
+    dex: "0xDb173A70F64DD9615C1F0D0900edcC943be942BE",
+    query: "0xdC1e21F0E5a9452a5C68860170088B9beB6C8Ce4",
+    impact: "0x3798d30069e689d05Fce2ccDbee6De08B2B855a8"
   },
   poolIndex: 36000,
   isTestNet: true,
-  chainId: "0x5fc17a",
+  chainId: "0xa791b",
   gridSize: 64,
   proxyPaths: {
     cold: 3,
     long: 4,
     liq: 2
   },
-  blockExplorer: "https://millicent-devnet-aardvark.explorer.caldera.xyz/",
+  blockExplorer: "https://millicent-devnet-2.explorer.caldera.xyz/",
   displayName: "Millicent One",
-  logoUrl: "https://assets-global.website-files.com/654127ad9084a4e94a0c5e1e/654127ad9084a4e94a0c5f4a_Millicent_Logomark_Colour-p-500.png",
+  logoUrl: "https://raw.githubusercontent.com/millicentnetwork/.github/main/profile/assets/banner.png",
 }
 
 const GOERLI_CHAIN: ChainSpec = {
