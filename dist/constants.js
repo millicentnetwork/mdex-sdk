@@ -15,9 +15,9 @@ const MILLICENT_ONE_CHAIN = {
     nodeUrl: "https://millicent-devnet-2.rpc.caldera.xyz/http",
     wsUrl: "wss://millicent-devnet-2.rpc.caldera.xyz/ws",
     addrs: {
-        dex: "0xB0dD62abD4d3dF1601B167518F8F5F71b655d6D2",
-        query: "0x8529F8A43F8E1f947D57946A89Eff2AD119B85A0",
-        impact: "0xe82F4b00E688Ea5cE442653F84F8854E41E74A7B"
+        dex: "0x575badcedC962566D83534F6C4b916594970CA73",
+        query: "0x26474105aE946E95b848AB29Cfdd74Ea65CC6faF",
+        impact: "0x5C77F33451b5223e2Ed881583565A4b0E79f465e"
     },
     poolIndex: 36000,
     isTestNet: true,
