@@ -39,14 +39,36 @@ const ETHEREUM_LOGO =
   "https://d33wubrfki0l68.cloudfront.net/fcd4ecd90386aeb50a235ddc4f0063cfbb8a7b66/4295e/static/bfc04ac72981166c740b189463e1f74c/40129/eth-diamond-black-white.jpg";
 const SCROLL_LOGO =
   "https://develop--ambient-finance.netlify.app/scroll_logo.png";
-const BLAST_LOGO = 
+const BLAST_LOGO =
  "https://assets-global.website-files.com/65a6baa1a3f8ed336f415cb4/65a6cc95aae1066cf96d497d_Logo%20Black%20on%20Yellow%20Background%402x-p-500.png"
 
 const DFLT_SDK_INFURA_KEY = '4741d1713bff4013bc3075ed6e7ce091'
 
+const MILLICENT_ONE_CHAIN: ChainSpec = {
+  nodeUrl: "https://millicent-devnet-2.rpc.caldera.xyz/http",
+  wsUrl: "wss://millicent-devnet-2.rpc.caldera.xyz/ws",
+  addrs: {
+    dex: "0x575badcedC962566D83534F6C4b916594970CA73",
+    query: "0x26474105aE946E95b848AB29Cfdd74Ea65CC6faF",
+    impact: "0x5C77F33451b5223e2Ed881583565A4b0E79f465e"
+  },
+  poolIndex: 36000,
+  isTestNet: true,
+  chainId: "0xa791b",
+  gridSize: 64,
+  proxyPaths: {
+    cold: 3,
+    long: 4,
+    liq: 2
+  },
+  blockExplorer: "https://millicent-devnet-2.explorer.caldera.xyz/",
+  displayName: "Millicent One",
+  logoUrl: "https://raw.githubusercontent.com/millicentnetwork/.github/main/profile/assets/banner.png",
+}
+
 const GOERLI_CHAIN: ChainSpec = {
-  nodeUrl: "https://goerli.infura.io/v3/" + DFLT_SDK_INFURA_KEY, 
-  wsUrl: "wss://goerli.infura.io/ws/v3/" + DFLT_SDK_INFURA_KEY, 
+  nodeUrl: "https://goerli.infura.io/v3/" + DFLT_SDK_INFURA_KEY,
+  wsUrl: "wss://goerli.infura.io/ws/v3/" + DFLT_SDK_INFURA_KEY,
   addrs: {
     dex: "0xfafcd1f5530827e7398b6d3c509f450b1b24a209",
     query: "0xc9900777baa5EE94Cd2C6509fb09278A1A46b7e8",
@@ -248,6 +270,7 @@ export const CHAIN_SPECS: { [chainId: string]: ChainSpec } = {
   "0x82750": SCROLL_CHAIN,
   "0xa0c71fd": BLAST_SEPOLIA_CHAIN,
   "0x13e31": BLAST_CHAIN,
+  "0xa791b": MILLICENT_ONE_CHAIN,
   "goerli": GOERLI_CHAIN,
   "sepolia": SEPOLIA_CHAIN,
   "arbtest": ARB_GOERLI_CHAIN,
@@ -260,4 +283,5 @@ export const CHAIN_SPECS: { [chainId: string]: ChainSpec } = {
   "scrollsepolia": SCROLL_SEPOLIA_CHAIN,
   "blast": BLAST_CHAIN,
   "blastSepolia": BLAST_SEPOLIA_CHAIN,
+  "millicentOne": MILLICENT_ONE_CHAIN
 };
