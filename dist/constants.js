@@ -12,23 +12,23 @@ const SCROLL_LOGO = "https://develop--ambient-finance.netlify.app/scroll_logo.pn
 const BLAST_LOGO = "https://assets-global.website-files.com/65a6baa1a3f8ed336f415cb4/65a6cc95aae1066cf96d497d_Logo%20Black%20on%20Yellow%20Background%402x-p-500.png";
 const DFLT_SDK_INFURA_KEY = '4741d1713bff4013bc3075ed6e7ce091';
 const MILLICENT_ONE_CHAIN = {
-    nodeUrl: "https://millicent-devnet-2.rpc.caldera.xyz/http",
-    wsUrl: "wss://millicent-devnet-2.rpc.caldera.xyz/ws",
+    nodeUrl: "https://rpc.devnet.alchemy.com/f06da044-d4c2-4edb-949d-ffffffffffff",
+    wsUrl: "wss://ws.devnet.alchemy.com/f06da044-d4c2-4edb-949d-ffffffffffff",
     addrs: {
-        dex: "0x575badcedC962566D83534F6C4b916594970CA73",
-        query: "0x26474105aE946E95b848AB29Cfdd74Ea65CC6faF",
-        impact: "0x5C77F33451b5223e2Ed881583565A4b0E79f465e"
+        dex: "0x82De6a634DF692Bd34613f0824B8BA0B3406fbb7",
+        query: "0xC8F652112948E63c34792B8C6c5b87BEb66aeEcB",
+        impact: "0xAF573e65236e498a17b56692F72b54553a4585fB",
     },
     poolIndex: 36000,
     isTestNet: true,
-    chainId: "0xa791b",
+    chainId: "0x9d27cc60b",
     gridSize: 64,
     proxyPaths: {
         cold: 3,
         long: 4,
         liq: 2
     },
-    blockExplorer: "https://millicent-devnet-2.explorer.caldera.xyz/",
+    blockExplorer: "https://explorer-millicent.devnet.alchemy.com/",
     displayName: "Millicent One",
     logoUrl: "https://raw.githubusercontent.com/millicentnetwork/.github/main/profile/assets/banner.png",
 };
@@ -226,7 +226,7 @@ exports.CHAIN_SPECS = {
     "0x82750": SCROLL_CHAIN,
     "0xa0c71fd": BLAST_SEPOLIA_CHAIN,
     "0x13e31": BLAST_CHAIN,
-    "0xa791b": MILLICENT_ONE_CHAIN,
+    "0x9d27cc60b": MILLICENT_ONE_CHAIN,
     "goerli": GOERLI_CHAIN,
     "sepolia": SEPOLIA_CHAIN,
     "arbtest": ARB_GOERLI_CHAIN,
@@ -239,6 +239,6 @@ exports.CHAIN_SPECS = {
     "scrollsepolia": SCROLL_SEPOLIA_CHAIN,
     "blast": BLAST_CHAIN,
     "blastSepolia": BLAST_SEPOLIA_CHAIN,
-    "millicentOne": MILLICENT_ONE_CHAIN
+    "millicentOne": MILLICENT_ONE_CHAIN,
 };
 //# sourceMappingURL=constants.js.map
