@@ -45,23 +45,23 @@ const BLAST_LOGO =
 const DFLT_SDK_INFURA_KEY = '4741d1713bff4013bc3075ed6e7ce091'
 
 const MILLICENT_ONE_CHAIN: ChainSpec = {
-  nodeUrl: "https://millicent-devnet-2.rpc.caldera.xyz/http",
-  wsUrl: "wss://millicent-devnet-2.rpc.caldera.xyz/ws",
+  nodeUrl: "https://testingusdc.rpc.caldera.xyz/http",
+  wsUrl: "wss://testingusdc.rpc.caldera.xyz/ws",
   addrs: {
-    dex: "0x575badcedC962566D83534F6C4b916594970CA73",
-    query: "0x26474105aE946E95b848AB29Cfdd74Ea65CC6faF",
-    impact: "0x5C77F33451b5223e2Ed881583565A4b0E79f465e"
+    dex: "0x39A9Be092b54dAbBC89ac091802c985f68A7A3cC",
+    query: "0xB1f6448BE5934a57aD811465d2ae0326ae4c4DCa",
+    impact: "0xffd026d3b9BbBB2b27e45038f11290f4CCbaD756",
   },
   poolIndex: 36000,
   isTestNet: true,
-  chainId: "0xa791b",
+  chainId: "0x2277c7",
   gridSize: 64,
   proxyPaths: {
     cold: 3,
     long: 4,
     liq: 2
   },
-  blockExplorer: "https://millicent-devnet-2.explorer.caldera.xyz/",
+  blockExplorer: "https://testingusdc.explorer.caldera.xyz/",
   displayName: "Millicent One",
   logoUrl: "https://raw.githubusercontent.com/millicentnetwork/.github/main/profile/assets/banner.png",
 }
@@ -270,7 +270,7 @@ export const CHAIN_SPECS: { [chainId: string]: ChainSpec } = {
   "0x82750": SCROLL_CHAIN,
   "0xa0c71fd": BLAST_SEPOLIA_CHAIN,
   "0x13e31": BLAST_CHAIN,
-  "0xa791b": MILLICENT_ONE_CHAIN,
+  "0x2277c7": MILLICENT_ONE_CHAIN,
   "goerli": GOERLI_CHAIN,
   "sepolia": SEPOLIA_CHAIN,
   "arbtest": ARB_GOERLI_CHAIN,
@@ -283,5 +283,5 @@ export const CHAIN_SPECS: { [chainId: string]: ChainSpec } = {
   "scrollsepolia": SCROLL_SEPOLIA_CHAIN,
   "blast": BLAST_CHAIN,
   "blastSepolia": BLAST_SEPOLIA_CHAIN,
-  "millicentOne": MILLICENT_ONE_CHAIN
+  "millicentOne": MILLICENT_ONE_CHAIN,
 };
